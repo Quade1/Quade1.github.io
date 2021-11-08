@@ -1,0 +1,24 @@
+h1 { 
+  color: #BCBBBB;
+  text-align: center;
+  margin: auto;
+  width: "50%";
+  font: 40px Arial, sans-serif;
+}
+p { 
+  color: #BCBBBB;
+  text-align: center;
+  margin: auto;
+  width: "50%";
+  font: 20px Calibri, sans-serif;
+}
+a { 
+  color: #909090;
+  text-align: center;
+  margin: auto;
+  width: "50%";
+  font: 20px Calibri, sans-serif;
+}
+body {
+  background-color: #202020;
+}
