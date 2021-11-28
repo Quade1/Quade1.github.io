@@ -1,24 +1,39 @@
-h1 { 
-  color: #BCBBBB;
+h2 {
   text-align: center;
-  margin: auto;
-  width: "50%";
-  font: 40px Arial, sans-serif;
+  color: #BBBBBB;
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: 500;
 }
-p { 
-  color: #BCBBBB;
+
+nav {
+  width: auto;
+}
+
+article {
+  padding: 8px;
+  width: auto;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+
+li {
+  border-right: 1px solid #000000;
+}
+
+a {
+  display: block;
   text-align: center;
-  margin: auto;
-  width: "50%";
-  font: 20px Calibri, sans-serif;
+  color: #000000;
+  padding: 8px;
+  background-color: #dddddd;
+  font-weight: 500;
 }
-a { 
-  color: #909090;
+
+footer {
+  background-color: #777;
+  padding: 10px;
   text-align: center;
-  margin: auto;
-  width: "50%";
-  font: 20px Calibri, sans-serif;
+  color: white;
 }
-body {
-  background-color: #202020;
-}
+
