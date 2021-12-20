@@ -35,7 +35,7 @@ nav
   background-color: #2F2F2F;
 }
 
-a 
+a.title 
 {	
   vertical-align: middle;
   display: inline-block;
@@ -47,7 +47,7 @@ a
   border-radius: 3px;
 }
 
-a:hover 
+a.title:hover 
 {	
   background-color: #444;
 }
@@ -70,7 +70,13 @@ h1
 p 
 {
   font-family: 'proxima-nova', sans-serif;
-	font-size: 15px;
+  font-size: 15px;
+}
+
+li
+{
+  font-family: 'proxima-nova', 'sans-serif', 'Segoe UI';
+  font-size: 13px;
 }
 
 
@@ -78,14 +84,14 @@ article {
   padding: 8px;
   width: auto;
   background-color: #252525;
-  height: 90%;
-  max-height: 90%;
+  height: 100%;
+  max-height: 100%;
 }
 
 section 
 {
-  height: 90%;
-  max-height: 90%;
+  height: 100%;
+  max-height: 100%;
 }
 
 footer {
@@ -117,8 +123,8 @@ button:hover
 
 .content
 { 
-	/*display: none;*/
-	height: 90vh;
+	display: none;
+	height: 100%;
 }
 
 body {
